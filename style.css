@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad; /* Colore viola scuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+button {
+    background-color: #8a2be2; /* Sfumatura di viola */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9932cc; /* Sfumatura di viola più scura */
+}
+
+#passwordScreen, #mainContent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    margin-top: 40px;
+}
