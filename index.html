@@ -1,57 +1,35 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tigri - Web App</title>
-    <link rel="stylesheet" href="style.css"> <!-- Il tuo file CSS per lo stile -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tigri App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .button {
+      background-color: #fbc02d;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Benvenuto nella Squadra Tigri</h1>
-        <button id="loginButton">Accedi</button>
-    </header>
-
-    <div id="passwordScreen" style="display:none;">
-        <h2>Inserisci la password per accedere</h2>
-        <input type="password" id="passwordInput" placeholder="Password">
-        <button id="submitPassword">Invia</button>
-    </div>
-
-    <div id="mainContent" style="display:none;">
-        <!-- Qui andrà il contenuto principale dopo aver inserito la password -->
-        <h2>Benvenuto nella tua Dashboard</h2>
-        <nav>
-            <ul>
-                <li><a href="#calendario">Calendario</a></li>
-                <li><a href="#annunci">Annunci</a></li>
-                <li><a href="#galleria">Galleria</a></li>
-                <li><a href="#chat">Chat</a></li>
-                <li><a href="#regole">Regole</a></li>
-            </ul>
-        </nav>
-        <section id="calendario">
-            <h3>Calendario eventi</h3>
-            <!-- Aggiungi qui il calendario interattivo -->
-        </section>
-        <section id="annunci">
-            <h3>Annunci</h3>
-            <!-- Spazio per gli annunci della squadra -->
-        </section>
-        <section id="galleria">
-            <h3>Galleria fotografica</h3>
-            <!-- Spazio per le foto della squadra -->
-        </section>
-        <section id="chat">
-            <h3>Chat</h3>
-            <!-- Chat per i membri della squadra -->
-        </section>
-        <section id="regole">
-            <h3>Regole della squadra</h3>
-            <!-- Spazio per le regole della squadra -->
-        </section>
-    </div>
-
-    <script src="script.js"></script> <!-- Il tuo file JavaScript per la funzionalità -->
+  <div class="container">
+    <h1>Benvenuto nell'app Tigri</h1>
+    <p>Accedi per esplorare le funzionalità.</p>
+    <button class="button">Accedi</button>
+  </div>
 </body>
 </html>
+
